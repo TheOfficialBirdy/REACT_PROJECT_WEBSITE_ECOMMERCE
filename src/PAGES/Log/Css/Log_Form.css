@@ -1,0 +1,67 @@
+.FORM_SECTION_WRAPPER {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background: orange;
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+
+.CENTER_FORM_INPUT {
+    position: inherit;
+    background: red;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 80%;
+}
+
+.LOG_MAIN_FORM {
+    position: inherit;
+    background: blue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 600px;
+    width: 80%;
+}
+
+.LOG_BLOCK_WRAPPER {
+    position: inherit;
+    background: orange;
+    text-align: left;
+    height: 600px;
+    width: 80%;
+    
+}
+
+.INPUT_FIELD, .INPUT_FIELD_LABEL {
+    display: block;
+    color: white;
+    position: inherit;   
+}
+.INPUT_FIELD_LABEL {
+    font-size: 130%;
+}
+.INPUT_FIELD {
+    height: 30px;
+    width: 40%;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.LOG_SUBMIT_INPUT {
+    background-color: white;
+    color: black;
+}
+.LOG_SUBMIT_INPUT:hover {
+    cursor: pointer;
+    transition-duration: 500ms ease-in-out;
+    background-color: black;
+    color: white;
+}
+
